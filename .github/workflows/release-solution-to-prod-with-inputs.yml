@@ -62,7 +62,7 @@ jobs:
     - name: Import solution as unmanaged to build env
       uses: microsoft/powerplatform-actions/import-solution@v0
       with:
-        environment-url: ${{inputs.BUILD_ENVIRONMENT_URL}}
+        environment-url: 'https://orgf5b5f229.crm.dynamics.com'
         user-name: 'admin@CRM240203.onmicrosoft.com'
         password-secret: ${{ secrets.PASSWORD }}
         solution-file: ${{ inputs.solution_outbound_folder}}/${{ inputs.solution_name }}.zip
