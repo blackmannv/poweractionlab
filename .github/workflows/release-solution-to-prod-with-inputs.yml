@@ -36,9 +36,6 @@ on:
         description: 'Production environment url.'
         type: string
         required: true
-  secret: 
-      user-name: ${{ secrets.USER }}
-      password-secret: ${{ secrets.PASSWORD }}
 
 jobs:
   convert-to-managed:
