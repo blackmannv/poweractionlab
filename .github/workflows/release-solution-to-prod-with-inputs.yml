@@ -36,6 +36,9 @@ on:
         description: 'Production environment url.'
         type: string
         required: true
+env:
+#edit your values here
+   USERNAME: 'admin@CRM240203.onmicrosoft.com'
 
 jobs:
   convert-to-managed:
