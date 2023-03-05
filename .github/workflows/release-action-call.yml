@@ -17,6 +17,5 @@ jobs:
       BUILD_ENVIRONMENT_URL: https://orgf5b5f229.crm.dynamics.com
       PRODUCTION_ENVIRONMENT_URL: https://org9f7ab155.crm.dynamics.com
     secrets:
-      envSecret: ${{ secrets.PowerPlatformSPN }}
       user-name: ${{ secrets.USER }}
       password-secret: ${{ secrets.PASSWORD }}
