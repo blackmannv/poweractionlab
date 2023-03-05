@@ -62,7 +62,7 @@ jobs:
     - name: who-am-i action
       uses: microsoft/powerplatform-actions/who-am-i@v0
       with:
-        environment-url: 'https://orgf5b5f229.crm.dynamics.com'
+        environment-url: 'https://orgaa6f4825.crm.dynamics.com'
         user-name: ${{ secrets.USER }}
         password-secret: ${{ secrets.PASSWORD }}
 
