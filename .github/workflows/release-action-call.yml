@@ -8,6 +8,7 @@ on:
 permissions:
   contents: write
 jobs:
+  steps:
   - name: who-am-i action
       uses: microsoft/powerplatform-actions/who-am-i@v0
       with:
