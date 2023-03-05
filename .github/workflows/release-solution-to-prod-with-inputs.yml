@@ -63,7 +63,7 @@ jobs:
       uses: microsoft/powerplatform-actions/import-solution@v0
       with:
         environment-url: ${{inputs.BUILD_ENVIRONMENT_URL}}
-        user-name: ${{ secrets.USER }}
+        user-name: 'admin@CRM240203.onmicrosoft.com'
         password-secret: ${{ secrets.PASSWORD }}
         solution-file: ${{ inputs.solution_outbound_folder}}/${{ inputs.solution_name }}.zip
         force-overwrite: true
